@@ -22,7 +22,12 @@
 
 
         <tr>
-            <td></td>
+            <td>
+                <a class="btn btn-success"
+                href="{{ route('usuario.show', ['id'=>$usuario->id]) }}">
+                Ver
+                </a>
+            </td>
             <td>{{ $usuario->name }}</td>
             <td>{{ $usuario->email}}</td>
             <td>{{ $usuario->created_at->format('d/m/Y') }}</td>

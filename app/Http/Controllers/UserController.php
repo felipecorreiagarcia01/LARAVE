@@ -25,7 +25,10 @@ class UserController extends Controller
      */
     public function create()
     {
-        //
+        $usuario = null;
+        return view('usuario.form')
+                        ->with(compact('usuario'));
+
     }
 
     /**
@@ -33,7 +36,7 @@ class UserController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        dd($request);
     }
 
     /**
@@ -41,7 +44,9 @@ class UserController extends Controller
      */
     public function show(string $id)
     {
-        //
+        $usuario = User::find($id);
+        return view('usuario.show')
+                        ->with(compact('usuario'));
     }
 
     /**

@@ -21,11 +21,6 @@
         <hr>
         @yield('content')
         <hr>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi nobis esse, dolor fugiat nulla molestiae incidunt quibusdam laboriosam eum sed neque explicabo debitis nostrum corporis odit aut quasi? Quis, nemo?</p>
-        <p>Neque magni, dicta impedit laudantium deleniti numquam ad! Numquam natus, assumenda, ut, maxime eius similique voluptatem porro repellat praesentium itaque minima modi exercitationem eos quaerat excepturi facilis error eum mollitia?</p>
-        <p>Voluptatem inventore unde culpa consequatur. Mollitia officia recusandae, vero beatae aperiam doloremque perferendis assumenda dolore nemo placeat aliquam officiis ab. Veritatis quod tempore nam expedita velit quis eius a harum?</p>
-        <p>Esse laborum alias tempore corrupti accusamus harum ducimus quod pariatur? Totam soluta quos ullam illum, officiis quod non dicta. Eos aliquid eum consequuntur mollitia impedit maxime necessitatibus exercitationem laborum nam?</p>
-        <p>Labore facilis itaque earum? Earum eum vel ratione! Sint vitae libero asperiores, amet voluptates culpa. Quaerat fuga, incidunt nostrum aspernatur quia magnam repellendus est unde quae veritatis at! Fuga, ea!</p>
     </div>
     <footer>
         <p class="fs-1 text-center"> T94 </p>
